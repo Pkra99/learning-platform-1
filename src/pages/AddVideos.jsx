@@ -9,7 +9,7 @@ function VideoUpload() {
   // Initialize Appwrite Client
   const client = new Client()
     .setEndpoint(conf.appwriteUrl)
-    .setProject(conf.appwriteUrl);
+    .setProject(appwriteProjectId);
 
   const storage = new Storage(client);
 
