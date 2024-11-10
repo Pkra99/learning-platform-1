@@ -17,6 +17,7 @@ import Contact from "./pages/Contact.jsx";
 import Post from "./pages/Post";
 import AddVideos from "./pages/AddVideos.jsx";
 import AllPosts from "./pages/AllPosts";
+import AllCourses from "./pages/AllCourses.jsx";
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,15 @@ const router = createBrowserRouter([
           <AuthLayout authentication>
             {" "}
             <AllPosts />
+          </AuthLayout>
+        ),
+      },
+      {
+        path: "/all-courses",
+        element: (
+          <AuthLayout authentication>
+            {" "}
+            <AllCourses />
           </AuthLayout>
         ),
       },

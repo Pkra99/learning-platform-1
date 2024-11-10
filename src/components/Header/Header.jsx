@@ -35,8 +35,13 @@ function Header() {
       active: !authStatus,
     },
     {
-      name: "All Course",
+      name: "All Posts",
       slug: "/all-posts",
+      active: authStatus,
+    },
+    {
+      name: "All Course",
+      slug: "/all-courses",
       active: authStatus,
     },
     {
