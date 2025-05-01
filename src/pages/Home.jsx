@@ -30,7 +30,7 @@ function Home() {
         <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
           <img
             className="w-96"
-            src="https://ibb.co/0yx74CqQ"
+            src="https://i.ibb.co/chjBf6Jx/84406320-9963615.jpg"
             alt="image1"
           />
         </div>
