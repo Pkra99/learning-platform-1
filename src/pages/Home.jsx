@@ -39,7 +39,7 @@ function Home() {
       <div className="grid  place-items-center sm:mt-20">
         <img
           className="sm:w-96 w-48"
-          src="https://ibb.co/39QGdQdB"
+          src="https://i.ibb.co/G4NBpNpc/7915189-3784896.jpg"
           alt="image2"
         />
       </div>
