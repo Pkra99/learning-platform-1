@@ -199,8 +199,6 @@ function AllCourses({ userId }) {
         ))}
       </div>
 
-      {/* Video Player Overlay (remains the same) */}
-     {/* Video Player Overlay */}
 {selectedVideo && (
   <div
     style={{

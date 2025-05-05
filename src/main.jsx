@@ -62,10 +62,9 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/all-courses",
+        path: "/courses/:section?",
         element: (
           <AuthLayout authentication>
-            {" "}
             <AllCourses />
           </AuthLayout>
         ),
